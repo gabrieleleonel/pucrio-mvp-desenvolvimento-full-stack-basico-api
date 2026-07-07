@@ -159,7 +159,7 @@ def update_game(id):
         game.status = data.get('status')
     if 'platform' in data:
          game.platform = data.get('platform')
-    if 'url_image' in data:
+    if 'urlImage' in data:
          game.url_image = data.get('urlImage')
     if 'title' in data:
          game.title = data.get('title')
